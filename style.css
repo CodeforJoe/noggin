@@ -1,0 +1,67 @@
+html body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+
+
+.container-fluid {
+  background-color: #000000;
+  color: #ffffff;
+
+}
+
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+main {
+  margin-top: 5px;
+
+}
+#main-pic {
+  width: 100%;
+}
+
+.upcoming-shows {
+  color: red;
+}
+
+footer a {
+
+  color: #ffffff;
+}
+
+ #banner-small {
+   display: none;
+ }
+ .i {
+   color: #ffffff;
+ }
+
+@media only screen and (max-width: 500px){ //some value
+
+
+   /*#banner-small{
+     display: block;
+     width: 100%;
+   }
+
+   #banner{
+     display: none;
+     visibility: hidden;
+   }
+*/
+#banner {
+  width: 100%;
+}
+   #main-pic {
+     display: none;
+   }
+}
